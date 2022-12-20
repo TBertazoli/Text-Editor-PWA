@@ -23,11 +23,11 @@ module.exports = () => {
         title: 'Webpack Plugin',
       }),
       new WebpackPwaManifest({
-        name: 'Text Editor Application',
-        short_name: 'Text Editor',
-        description: 'Keep track of important contacts!',
-        background_color: '#7eb4e2',
-        theme_color: '#7eb4e2',
+        name: 'Just Another Text Editor',
+        short_name: 'J.A.T.E',
+        description: 'Takes notes with JavaScript sytax highlighting',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
         start_url: './',
         publicPath: './',
         icons: [
